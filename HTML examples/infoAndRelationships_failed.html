@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style type="text/css">
+        .heading1 {
+            font-family: Times, serif;
+            font-size: 200%;
+            font-weight: bold;
+        }
+
+        .table {
+            display: flex;
+        }
+
+        .row {
+            border: 1px black solid;
+            height: 2em;
+            padding: 5px 5px 5px 5px;
+        }
+
+        .rowBold {
+            border: 1px black solid;
+            height: 2em;
+            font-weight: bold;
+            padding: 5px 5px 5px 5px;
+        }
+    </style>
+    <title>Info and Relationships</title>
+
+</head>
+
+<body>
+    <h1>Info and Relationships</h1>
+</body>
+<p class="heading1">Introduction - not a heading, but it looks like one</p>
+<p>This is a random text used here to provide some info.</p>
+
+<h2>Let's see some tables!</h2>
+<p>
+<div class="table">
+    <tr>
+        <div class="column">
+            <div class="rowBold">Number of cases</div>
+            <div class="row">2019</div>
+            <div class="row">2020</div>
+        </div>
+        <div class="column">
+            <div class="rowBold">Washington</div>
+            <div class="row">458</div>
+            <div class="row">480</div>
+        </div>
+    </tr>
+    <div class="column">
+        <div class="rowBold">Baltimore</div>
+        <div class="row">499</div>
+        <div class="row">390</div>
+    </div>
+    <div class="column">
+        <div class="rowBold">Philadelphia</div>
+        <div class="row">545</div>
+        <div class="row">445</div>
+    </div>
+</div>
+</p>
+<h2>Radio Buttons</h2>
+Please select your preferred payment method:
+<div>
+    <input type="radio" id="choice1" name="payment" />
+    <label for="choice1">Cash</label>
+
+    <input type="radio" id="choice2" name="payment" />
+    <label for="choice2">Bank Transfer</label>
+
+    <input type="radio" id="choice3" name="payment" />
+    <label for="choice3">Credit Card</label>
+</div>
+<div>
+    <button type="submit">Submit</button>
+</div>
+<h2>Ordered list</h2>
+<p>1. Open the box</p>
+<p>2. Check the cat</p>
+3. Close the box
+
+</html>
